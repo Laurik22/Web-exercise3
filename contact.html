@@ -1,0 +1,69 @@
+<html lang="English">
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact me</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" style="font-size: large; font-weight: 700;" >
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv.html">Cv</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+    <h1>Contact me</h1>
+    <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="nameInput">
+        </div>
+        <div class="mb-3">
+          <label for="age" class="form-label">Age:</label>
+          <input type="number" class="form-control" id="AgeInput">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="emailInput">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea type="message" class="form-control" id="messageInput" rows="4"></textarea>
+        </div>
+        <div>
+        <label for="message" class="form-label">How did you know about my page?</label>
+        </div>
+        <div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+            <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+            <label class="btn btn-outline-danger" for="vbtn-radio1"> Google</label>
+            <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
+            <label class="btn btn-outline-danger" for="vbtn-radio2">From a friend</label>
+            <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off">
+            <label class="btn btn-outline-danger" for="vbtn-radio3">From Linkedin</label>
+            <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio4" autocomplete="off">
+            <label class="btn btn-outline-danger" for="vbtn-radio4">Other</label>
+            <br>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+</body>
+</html>

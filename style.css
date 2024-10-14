@@ -1,0 +1,21 @@
+.content {
+    margin: 20px auto 0 auto; 
+    max-width: 800px; 
+    text-align: start; 
+    padding: 10px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+table{
+    text-align: center;
+}
+th, td {
+    padding: 10px;
+  }
+
+.form-control{
+    width: 250px;
+}
+
